@@ -1,2 +1,1 @@
-# vasshishtha
-day 11
+# day 11
