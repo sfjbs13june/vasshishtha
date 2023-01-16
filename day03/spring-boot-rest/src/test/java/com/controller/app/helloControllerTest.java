@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 
 public class helloControllerTest {
-    helloController helloController = new helloController();
+    HelloController helloController=new HelloController();
     @Test
     public void testSayhello()
     {
