@@ -26,11 +26,10 @@ public class student_controller {
 
     }
     @GetMapping("/map/students")
-    public Map mapStudents(){
+    public Map mapStudents() {
         Map studentMap = new HashMap();
-        Student student1 = new Student("1","K","1","CA");
-        Student student2 = new Student("2","K","1","CA");
-        Student student3 = new Student("3","K","1","CA");
-
+        Student student1 = new Student("1", "K", "1", "CA");
+        Student student2 = new Student("2", "K", "1", "CA");
+        Student student3 = new Student("3", "K", "1", "CA");
     }
 }
